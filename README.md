@@ -17,5 +17,5 @@ Once you either Win or Lose a game you have the opportunity to try another level
 ## How do you download?
 First, you can download the code itself and make changes to make the application better and make your own personal changes!
 
-The other method would be downloading the .jar file attached, if you go to your terminal you can run the game by typing:
+The other method would be downloading the .jar file attached, if you go to your terminal you can run the game by going to the jar file location, right clicking, and selecting open with terminal and running: java --enable-preview -jar BrickBreaker.jar
 
