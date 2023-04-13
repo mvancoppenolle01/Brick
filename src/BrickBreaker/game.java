@@ -193,13 +193,13 @@ class Game extends JPanel implements KeyListener, ActionListener  {
 		if(arg0.getKeyCode() == KeyEvent.VK_SPACE) { 
 			if(!play) {
 				play = true;
-				ballposX = 120;
-				ballposY = 350;
+				ballposX = 340;
+				ballposY = 500;
 				ballXdir = -1;
 				ballYdir = -2;
 				score = 0;
-				totalBricks = 7;
-				level = new Layout(1,7);
+				totalBricks = 21;
+				level = new Layout(3,7);
 				repaint();
 			}
 		}
@@ -211,8 +211,8 @@ class Game extends JPanel implements KeyListener, ActionListener  {
 				ballXdir = -1;
 				ballYdir = -2;
 				score = 0;
-				totalBricks = 24;
-				level = new Layout(3,8);
+				totalBricks = 40;
+				level = new Layout(4,10);
 				repaint();
 			}
 			
@@ -223,14 +223,14 @@ class Game extends JPanel implements KeyListener, ActionListener  {
 				ballposX = 340;
 				ballposY = 500;
 				ballXdir = -1;
-				ballYdir = -1;
+				ballYdir = -2;
 				score = 0;
-				totalBricks = 40;
-				level = new Layout(4,10);				
+				totalBricks = 35;
+				level = new Layout(5, 7);				
 				repaint();
 			}
 		}
-	
+
 		if(arg0.getKeyCode() == KeyEvent.VK_ESCAPE){
 				System.exit(ABORT);
 			}	
