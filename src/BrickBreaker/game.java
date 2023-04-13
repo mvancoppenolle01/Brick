@@ -269,14 +269,14 @@ class Game extends JPanel implements KeyListener, ActionListener  {
 
 class Level1 {
 	public static void main(String[] args) {
-		JFrame obj = new JFrame();
+		JFrame frame = new JFrame();
 		Game game = new Game();
-		obj.setBounds(10, 10, 700, 600);
-		obj.setTitle("Brick Breaker");
-		obj.setResizable(true);
-		obj.setVisible(true);
-		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		obj.add(game);
+		frame.setBounds(10, 10, 700, 600);
+		frame.setTitle("Brick Breaker");
+		frame.setResizable(true);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.add(game);
 		
 	}
 
